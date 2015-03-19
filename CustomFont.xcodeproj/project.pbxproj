@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A27EDC51ABB0FA900EAB802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A27EDC41ABB0FA900EAB802 /* main.m */; };
+		8A27EDC81ABB0FA900EAB802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A27EDC71ABB0FA900EAB802 /* AppDelegate.m */; };
+		8A27EDCB1ABB0FA900EAB802 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A27EDCA1ABB0FA900EAB802 /* ViewController.m */; };
+		8A27EDCE1ABB0FA900EAB802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDCC1ABB0FA900EAB802 /* Main.storyboard */; };
+		8A27EDD01ABB0FA900EAB802 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDCF1ABB0FA900EAB802 /* Images.xcassets */; };
+		8A27EDD31ABB0FA900EAB802 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDD11ABB0FA900EAB802 /* LaunchScreen.xib */; };
+		8A27EDDF1ABB0FAA00EAB802 /* CustomFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A27EDDE1ABB0FAA00EAB802 /* CustomFontTests.m */; };
+		8A27EDF51ABB135A00EAB802 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDE81ABB132B00EAB802 /* Roboto-Black.ttf */; };
+		8A27EDF61ABB135A00EAB802 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDE91ABB132B00EAB802 /* Roboto-BlackItalic.ttf */; };
+		8A27EDF71ABB135A00EAB802 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDEA1ABB132B00EAB802 /* Roboto-Bold.ttf */; };
+		8A27EDF81ABB135A00EAB802 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDEB1ABB132B00EAB802 /* Roboto-BoldItalic.ttf */; };
+		8A27EDF91ABB135A00EAB802 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDEC1ABB132B00EAB802 /* Roboto-Italic.ttf */; };
+		8A27EDFA1ABB135A00EAB802 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDED1ABB132B00EAB802 /* Roboto-Light.ttf */; };
+		8A27EDFB1ABB135A00EAB802 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDEE1ABB132B00EAB802 /* Roboto-LightItalic.ttf */; };
+		8A27EDFC1ABB135A00EAB802 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDEF1ABB132B00EAB802 /* Roboto-Medium.ttf */; };
+		8A27EDFD1ABB135A00EAB802 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDF01ABB132B00EAB802 /* Roboto-MediumItalic.ttf */; };
+		8A27EDFE1ABB135A00EAB802 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDF11ABB132B00EAB802 /* Roboto-Regular.ttf */; };
+		8A27EDFF1ABB135A00EAB802 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDF21ABB132B00EAB802 /* Roboto-Thin.ttf */; };
+		8A27EE001ABB135A00EAB802 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A27EDF31ABB132B00EAB802 /* Roboto-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A27EDD91ABB0FAA00EAB802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A27EDB71ABB0FA900EAB802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A27EDBE1ABB0FA900EAB802;
+			remoteInfo = CustomFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A27EDBF1ABB0FA900EAB802 /* CustomFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A27EDC31ABB0FA900EAB802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A27EDC41ABB0FA900EAB802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A27EDC61ABB0FA900EAB802 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A27EDC71ABB0FA900EAB802 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A27EDC91ABB0FA900EAB802 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A27EDCA1ABB0FA900EAB802 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A27EDCD1ABB0FA900EAB802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A27EDCF1ABB0FA900EAB802 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8A27EDD21ABB0FA900EAB802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8A27EDD81ABB0FAA00EAB802 /* CustomFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A27EDDD1ABB0FAA00EAB802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A27EDDE1ABB0FAA00EAB802 /* CustomFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFontTests.m; sourceTree = "<group>"; };
+		8A27EDE81ABB132B00EAB802 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		8A27EDE91ABB132B00EAB802 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8A27EDEA1ABB132B00EAB802 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		8A27EDEB1ABB132B00EAB802 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8A27EDEC1ABB132B00EAB802 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		8A27EDED1ABB132B00EAB802 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		8A27EDEE1ABB132B00EAB802 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		8A27EDEF1ABB132B00EAB802 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		8A27EDF01ABB132B00EAB802 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		8A27EDF11ABB132B00EAB802 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		8A27EDF21ABB132B00EAB802 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		8A27EDF31ABB132B00EAB802 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A27EDBC1ABB0FA900EAB802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A27EDD51ABB0FAA00EAB802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A27EDB61ABB0FA900EAB802 = {
+			isa = PBXGroup;
+			children = (
+				8A27EDC11ABB0FA900EAB802 /* CustomFont */,
+				8A27EDDB1ABB0FAA00EAB802 /* CustomFontTests */,
+				8A27EDC01ABB0FA900EAB802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A27EDC01ABB0FA900EAB802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A27EDBF1ABB0FA900EAB802 /* CustomFont.app */,
+				8A27EDD81ABB0FAA00EAB802 /* CustomFontTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A27EDC11ABB0FA900EAB802 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				8A27EDF41ABB133200EAB802 /* Fonts */,
+				8A27EDC61ABB0FA900EAB802 /* AppDelegate.h */,
+				8A27EDC71ABB0FA900EAB802 /* AppDelegate.m */,
+				8A27EDC91ABB0FA900EAB802 /* ViewController.h */,
+				8A27EDCA1ABB0FA900EAB802 /* ViewController.m */,
+				8A27EDCC1ABB0FA900EAB802 /* Main.storyboard */,
+				8A27EDCF1ABB0FA900EAB802 /* Images.xcassets */,
+				8A27EDD11ABB0FA900EAB802 /* LaunchScreen.xib */,
+				8A27EDC21ABB0FA900EAB802 /* Supporting Files */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
+		8A27EDC21ABB0FA900EAB802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A27EDC31ABB0FA900EAB802 /* Info.plist */,
+				8A27EDC41ABB0FA900EAB802 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A27EDDB1ABB0FAA00EAB802 /* CustomFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A27EDDE1ABB0FAA00EAB802 /* CustomFontTests.m */,
+				8A27EDDC1ABB0FAA00EAB802 /* Supporting Files */,
+			);
+			path = CustomFontTests;
+			sourceTree = "<group>";
+		};
+		8A27EDDC1ABB0FAA00EAB802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A27EDDD1ABB0FAA00EAB802 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A27EDF41ABB133200EAB802 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8A27EDE81ABB132B00EAB802 /* Roboto-Black.ttf */,
+				8A27EDE91ABB132B00EAB802 /* Roboto-BlackItalic.ttf */,
+				8A27EDEA1ABB132B00EAB802 /* Roboto-Bold.ttf */,
+				8A27EDEB1ABB132B00EAB802 /* Roboto-BoldItalic.ttf */,
+				8A27EDEC1ABB132B00EAB802 /* Roboto-Italic.ttf */,
+				8A27EDED1ABB132B00EAB802 /* Roboto-Light.ttf */,
+				8A27EDEE1ABB132B00EAB802 /* Roboto-LightItalic.ttf */,
+				8A27EDEF1ABB132B00EAB802 /* Roboto-Medium.ttf */,
+				8A27EDF01ABB132B00EAB802 /* Roboto-MediumItalic.ttf */,
+				8A27EDF11ABB132B00EAB802 /* Roboto-Regular.ttf */,
+				8A27EDF21ABB132B00EAB802 /* Roboto-Thin.ttf */,
+				8A27EDF31ABB132B00EAB802 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A27EDBE1ABB0FA900EAB802 /* CustomFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A27EDE21ABB0FAA00EAB802 /* Build configuration list for PBXNativeTarget "CustomFont" */;
+			buildPhases = (
+				8A27EDBB1ABB0FA900EAB802 /* Sources */,
+				8A27EDBC1ABB0FA900EAB802 /* Frameworks */,
+				8A27EDBD1ABB0FA900EAB802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomFont;
+			productName = CustomFont;
+			productReference = 8A27EDBF1ABB0FA900EAB802 /* CustomFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A27EDD71ABB0FAA00EAB802 /* CustomFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A27EDE51ABB0FAA00EAB802 /* Build configuration list for PBXNativeTarget "CustomFontTests" */;
+			buildPhases = (
+				8A27EDD41ABB0FAA00EAB802 /* Sources */,
+				8A27EDD51ABB0FAA00EAB802 /* Frameworks */,
+				8A27EDD61ABB0FAA00EAB802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A27EDDA1ABB0FAA00EAB802 /* PBXTargetDependency */,
+			);
+			name = CustomFontTests;
+			productName = CustomFontTests;
+			productReference = 8A27EDD81ABB0FAA00EAB802 /* CustomFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A27EDB71ABB0FA900EAB802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = com.giria;
+				TargetAttributes = {
+					8A27EDBE1ABB0FA900EAB802 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8A27EDD71ABB0FAA00EAB802 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8A27EDBE1ABB0FA900EAB802;
+					};
+				};
+			};
+			buildConfigurationList = 8A27EDBA1ABB0FA900EAB802 /* Build configuration list for PBXProject "CustomFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A27EDB61ABB0FA900EAB802;
+			productRefGroup = 8A27EDC01ABB0FA900EAB802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A27EDBE1ABB0FA900EAB802 /* CustomFont */,
+				8A27EDD71ABB0FAA00EAB802 /* CustomFontTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A27EDBD1ABB0FA900EAB802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A27EE001ABB135A00EAB802 /* Roboto-ThinItalic.ttf in Resources */,
+				8A27EDFF1ABB135A00EAB802 /* Roboto-Thin.ttf in Resources */,
+				8A27EDCE1ABB0FA900EAB802 /* Main.storyboard in Resources */,
+				8A27EDD31ABB0FA900EAB802 /* LaunchScreen.xib in Resources */,
+				8A27EDFB1ABB135A00EAB802 /* Roboto-LightItalic.ttf in Resources */,
+				8A27EDF71ABB135A00EAB802 /* Roboto-Bold.ttf in Resources */,
+				8A27EDFD1ABB135A00EAB802 /* Roboto-MediumItalic.ttf in Resources */,
+				8A27EDF61ABB135A00EAB802 /* Roboto-BlackItalic.ttf in Resources */,
+				8A27EDD01ABB0FA900EAB802 /* Images.xcassets in Resources */,
+				8A27EDF91ABB135A00EAB802 /* Roboto-Italic.ttf in Resources */,
+				8A27EDF81ABB135A00EAB802 /* Roboto-BoldItalic.ttf in Resources */,
+				8A27EDFC1ABB135A00EAB802 /* Roboto-Medium.ttf in Resources */,
+				8A27EDFE1ABB135A00EAB802 /* Roboto-Regular.ttf in Resources */,
+				8A27EDF51ABB135A00EAB802 /* Roboto-Black.ttf in Resources */,
+				8A27EDFA1ABB135A00EAB802 /* Roboto-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A27EDD61ABB0FAA00EAB802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A27EDBB1ABB0FA900EAB802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A27EDCB1ABB0FA900EAB802 /* ViewController.m in Sources */,
+				8A27EDC81ABB0FA900EAB802 /* AppDelegate.m in Sources */,
+				8A27EDC51ABB0FA900EAB802 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A27EDD41ABB0FAA00EAB802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A27EDDF1ABB0FAA00EAB802 /* CustomFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A27EDDA1ABB0FAA00EAB802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A27EDBE1ABB0FA900EAB802 /* CustomFont */;
+			targetProxy = 8A27EDD91ABB0FAA00EAB802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A27EDCC1ABB0FA900EAB802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A27EDCD1ABB0FA900EAB802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A27EDD11ABB0FA900EAB802 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A27EDD21ABB0FA900EAB802 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A27EDE01ABB0FAA00EAB802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A27EDE11ABB0FAA00EAB802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A27EDE31ABB0FAA00EAB802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A27EDE41ABB0FAA00EAB802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A27EDE61ABB0FAA00EAB802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomFont.app/CustomFont";
+			};
+			name = Debug;
+		};
+		8A27EDE71ABB0FAA00EAB802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomFont.app/CustomFont";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A27EDBA1ABB0FA900EAB802 /* Build configuration list for PBXProject "CustomFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A27EDE01ABB0FAA00EAB802 /* Debug */,
+				8A27EDE11ABB0FAA00EAB802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A27EDE21ABB0FAA00EAB802 /* Build configuration list for PBXNativeTarget "CustomFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A27EDE31ABB0FAA00EAB802 /* Debug */,
+				8A27EDE41ABB0FAA00EAB802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A27EDE51ABB0FAA00EAB802 /* Build configuration list for PBXNativeTarget "CustomFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A27EDE61ABB0FAA00EAB802 /* Debug */,
+				8A27EDE71ABB0FAA00EAB802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A27EDB71ABB0FA900EAB802 /* Project object */;
+}
